@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/image_width_180dp"
+        android:layout_height="@dimen/image_height_180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:src="@drawable/bear_flower"
+        android:contentDescription="@string/this_is_your_driver_photo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/driver_name" />
+
+        <TextView
+            android:id="@+id/driver_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bear_power" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender" />
+
+        <TextView
+            android:id="@+id/driver_gender_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/age" />
+
+        <TextView
+            android:id="@+id/driver_age_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twenty_one" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/ok" />
+
+</LinearLayout>

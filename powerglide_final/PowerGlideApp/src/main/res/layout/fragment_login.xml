@@ -1,0 +1,168 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/main_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+
+        <ImageView
+            android:id="@+id/image_logo"
+            android:layout_width="@dimen/image_width_250dp"
+            android:layout_height="@dimen/image_height_180dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/powerglidelogo"
+            android:contentDescription="@string/this_is_the_company_logo" />
+
+        <LinearLayout
+            android:id="@+id/switch_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/glider_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_15dp"
+                android:text="@string/glider"
+                android:textSize="@dimen/textsize_16sp"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/switch_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_logo" />
+
+
+            <TextView
+                android:id="@+id/driver_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:text="@string/driver"
+                android:textSize="@dimen/textsize_16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/email_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/switch_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textSize="@dimen/textsize_18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/email_edittext"
+                android:layout_width="@dimen/margin_200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_email"
+                android:inputType="textEmailAddress"
+                android:nextFocusForward="@+id/username_edittext" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/username_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email_layout"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/username_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                android:textSize="@dimen/textsize_18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/username_edittext"
+                android:layout_width="@dimen/width_200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_username"
+                android:nextFocusForward="@+id/password_edittext" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/password_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username_layout"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textSize="@dimen/textsize_18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/password_edittext"
+                android:layout_width="@dimen/width_200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_password"
+                android:inputType="textPassword"
+                android:nextFocusForward="@+id/login_button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/login_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="@dimen/width_120dp"
+                android:layout_height="wrap_content"
+                android:onClick="Login_Signup_Click"
+                android:text="@string/log_in"
+                android:nextFocusForward="@+id/login_signup_textview"
+                android:contentDescription="@string/click_here_to_log_in" />
+
+            <TextView
+                android:id="@+id/login_signup_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/or_signup"
+                android:textSize="@dimen/textsize_14sp"
+                android:textStyle="bold"
+                android:contentDescription="@string/toggle_between_log_in_and_sign_up" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

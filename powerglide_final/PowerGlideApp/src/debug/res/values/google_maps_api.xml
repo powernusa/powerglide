@@ -1,0 +1,22 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=FF:8A:E3:CE:50:9E:D6:CC:C4:60:B0:9C:4A:4E:94:D3:02:59:A6:29%3Bcom.powerglide.andy
+
+    You can also add your credentials to an existing key, using this line:
+    FF:8A:E3:CE:50:9E:D6:CC:C4:60:B0:9C:4A:4E:94:D3:02:59:A6:29;com.powerglide.andy
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <!--  AIzaSyD9423QPR0MvQaAfhHU2wZcz_N-iCR4dKc -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        enter here
+    </string>
+</resources>

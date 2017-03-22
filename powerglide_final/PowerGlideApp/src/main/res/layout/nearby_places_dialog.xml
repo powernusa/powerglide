@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|end"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/atm_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dialog_margin_15dp">
+
+        <TextView
+            android:id="@+id/atm_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/dialog_margin_5dp"
+            android:background="@drawable/rounded_edge"
+            android:padding="@dimen/dialog_padding_5dp"
+            android:text="@string/atm" />
+
+        <ImageView
+            android:layout_width="@dimen/width_50dp"
+            android:layout_height="@dimen/height_50dp"
+            android:layout_margin="@dimen/dialog_padding_5dp"
+            android:layout_toEndOf="@+id/atm_textview"
+            android:src="@drawable/atm"
+            android:contentDescription="@string/this_is_automated_teller_machine_image" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gas_station_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dialog_margin_15dp">
+
+        <TextView
+            android:id="@+id/gas_station_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/dialog_margin_5dp"
+            android:background="@drawable/rounded_edge"
+            android:padding="@dimen/dialog_padding_5dp"
+            android:text="@string/gas_station" />
+
+        <ImageView
+            android:layout_width="@dimen/width_50dp"
+            android:layout_height="@dimen/height_50dp"
+            android:layout_margin="@dimen/dialog_padding_5dp"
+            android:layout_toEndOf="@+id/gas_station_textview"
+            android:src="@drawable/gas_station"
+            android:contentDescription="@string/this_is_gas_station_image" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/hotels_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dialog_margin_15dp">
+
+        <TextView
+            android:id="@+id/hotels_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/dialog_margin_5dp"
+            android:background="@drawable/rounded_edge"
+            android:padding="@dimen/dialog_padding_5dp"
+            android:text="@string/hotels" />
+
+        <ImageView
+            android:layout_width="@dimen/width_50dp"
+            android:layout_height="@dimen/height_50dp"
+            android:layout_margin="@dimen/dialog_padding_5dp"
+            android:layout_toEndOf="@+id/hotels_textview"
+            android:src="@drawable/hotels"
+            android:contentDescription="@string/this_is_lodging_image" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/parking_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dialog_margin_15dp">
+
+        <TextView
+            android:id="@+id/parking_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/dialog_margin_5dp"
+            android:background="@drawable/rounded_edge"
+            android:padding="@dimen/dialog_padding_5dp"
+            android:text="@string/parking" />
+
+        <ImageView
+            android:layout_width="@dimen/width_50dp"
+            android:layout_height="@dimen/height_50dp"
+            android:layout_margin="@dimen/dialog_padding_5dp"
+            android:layout_toEndOf="@+id/parking_textview"
+            android:src="@drawable/parking"
+            android:contentDescription="@string/this_is_parking_image" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pharmacy_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dialog_margin_15dp">
+
+        <TextView
+            android:id="@+id/pharmacy_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/dialog_margin_5dp"
+            android:background="@drawable/rounded_edge"
+            android:padding="@dimen/dialog_padding_5dp"
+            android:text="@string/pharmacy" />
+
+        <ImageView
+            android:layout_width="@dimen/width_50dp"
+            android:layout_height="@dimen/height_50dp"
+            android:layout_margin="@dimen/dialog_padding_5dp"
+            android:layout_toEndOf="@+id/pharmacy_textview"
+            android:src="@drawable/pharmacy"
+            android:contentDescription="@string/this_is_pharmacy_image" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/restaurant_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dialog_margin_15dp">
+
+        <TextView
+            android:id="@+id/restaurant_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/dialog_margin_5dp"
+            android:background="@drawable/rounded_edge"
+            android:padding="@dimen/dialog_padding_5dp"
+            android:text="@string/restaurant" />
+
+        <ImageView
+            android:layout_width="@dimen/width_50dp"
+            android:layout_height="@dimen/height_50dp"
+            android:layout_margin="@dimen/dialog_padding_5dp"
+            android:layout_toEndOf="@+id/restaurant_textview"
+            android:src="@drawable/restaurant"
+            android:contentDescription="@string/this_is_restaurant_image" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/cross_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dialog_margin_5dp"
+        android:layout_marginEnd="@dimen/dialog_margin_12dp">
+
+        <ImageView
+            android:layout_width="@dimen/dialog_image_view_80dp"
+            android:layout_height="@dimen/dialog_image_view_80dp"
+            android:src="@drawable/cross_icon"
+            android:contentDescription="@string/this_is_close_dialog_image" />
+    </RelativeLayout>
+
+</LinearLayout>

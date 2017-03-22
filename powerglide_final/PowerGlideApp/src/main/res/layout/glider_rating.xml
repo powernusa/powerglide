@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/lblRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/please_rate_your_driver"
+        android:textSize="@dimen/textsize_22sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_70dp" />
+
+    <android.support.v7.widget.AppCompatRatingBar
+        android:id="@+id/rating_bar"
+        android:layout_marginTop="@dimen/margin_30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_20dp" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_request_coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/viewrequest_appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/view_request_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark" />
+    </android.support.design.widget.AppBarLayout>
+
+    <fragment
+        android:id="@+id/view_request_fragment"
+        android:name="com.powerglide.andy.ViewRequestsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <ProgressBar
+        android:id="@+id/view_request_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/view_request_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/dialog_margin_12dp"
+        android:src="@drawable/menu"
+        android:contentDescription="@string/click_here_for_menu" />
+
+</android.support.design.widget.CoordinatorLayout>

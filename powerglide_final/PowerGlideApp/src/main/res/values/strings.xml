@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2015-present, Parse, LLC.
+  ~ All rights reserved.
+  ~
+  ~ This source code is licensed under the BSD-style license found in the
+  ~ LICENSE file in the root directory of this source tree. An additional grant
+  ~ of patent rights can be found in the PATENTS file in the same directory.
+  -->
+<resources>
+    <string name="parse_app_id" translatable="false">enter here</string>
+    <string name="parse_client_key" translatable="false">enter here</string>
+    <string name="parse_server" translatable="false">enter here</string>
+
+
+    <string name="app_name" translatable="false">Power Glide</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_glider_map">Map</string>
+    <string name="view_driver_details">Driver Details</string>
+    <string name="view_glider_history">Glider History</string>
+    <string name="view_glider_logut">Logout</string>
+
+    <string name="no_geocoder_available">No geocoder available</string>
+
+    <string name="fetch_address">Fetch address</string>
+
+    <string name="address_found">Address found</string>
+
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="title_activity_driver_map">Map</string>
+    <string name="title_activity_view_requests">Map</string>
+    <string name="appwidget_text">Driver Rating</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="nearby_base_url" translatable="false">https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=</string>
+
+    <string name="radius_url">radius=</string>
+    <string name="type_url">type=</string>
+    <string name="key_url">key=</string>
+
+
+    <string name="atm">atm</string>
+    <string name="gas_station">gas_station</string>
+    <string name="hotels">lodging</string>
+    <string name="parking">parking</string>
+    <string name="pharmacy">pharmacy</string>
+    <string name="restaurant">restaurant</string>
+    <string name="transaction_done">Transaction Done</string>
+    <string name="choose_nearby_items">Please click menu to choose nearby items</string>
+    <string name="driver_name">Driver Name:</string>
+    <string name="bear_power" translatable="false">Bear Power</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="info">Info</string>
+    <string name="log_out">Log Out</string>
+    <string name="accept_request">Accept Request</string>
+    <string name="transaction">Transaction</string>
+    <string name="wed_feb_01_2017" translatable="false">Wed Feb 01 2017</string>
+    <string name="five" translatable="false">5</string>
+    <string name="glider5_gmail_com" translatable="false">glider5@gmail.com</string>
+    <string name="date">Date:</string>
+    <string name="_1_feb_2017" translatable="false">1 Feb 2017</string>
+    <string name="driver">Driver</string>
+    <string name="anton_power" translatable="false">Anton Power</string>
+    <string name="rating">Rating:</string>
+    <string name="rated_by">Rated by:</string>
+    <string name="yulia" translatable="false">yulia</string>
+    <string name="date_and_time">Date and Time</string>
+    <string name="glider">Glider</string>
+    <string name="email">Email:</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="username">Username:</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="password">Password:</string>
+    <string name="log_in">Log In</string>
+    <string name="or_signup">, or SignUp</string>
+    <string name="or_comma_signup">Or, Sign Up</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="or_login">Or, Log In</string>
+    <string name="empty_data">Empty Data</string>
+    <string name="request_driver">Request Driver</string>
+    <string name="driver_details">Driver Details</string>
+    <string name="rate_your_driver">Rate your driver</string>
+    <string name="nearby_places">Nearby Places</string>
+    <string name="please_rate_your_driver">Please Rate Your Driver</string>
+    <string name="submit">Submit</string>
+    <string name="r_s_murni_teguh" translatable="false">R.S Murni Teguh</string>
+    <string name="jalan_jawa_no_12_medan_indonesia" translatable="false">Jalan Jawa No.12. Medan Indonesia</string>
+    <string name="open_now">Open Now</string>
+    <string name="_1_1_km" translatable="false">1.1 Km</string>
+    <string name="no_request_at_this_time">No request at this time</string>
+    <string name="waiting">Waiting ...</string>
+
+    <string name="no_connection">No Connection</string>
+    <string name="no_connection_cannot_logout">No Connection. Cannot Log out</string>
+    <string name="no_network_connection">No Network Connection</string>
+    <string name="there_is_no_network">There is no network connection</string>
+    <string name="sorry_no_network">Sorry, No Network Connection</string>
+    <string name="there_is_connection">There is Connection!</string>
+    <string name="no_network">No Network!</string>
+    <string name="ok">OK</string>
+    <string name="ok_try_later">OK, Try Later</string>
+    <string name="view_request">View Request</string>
+    <string name="request_has_been_cancelled">Request has been cancelled</string>
+    <string name="cannot_find_glidername">Cannot find GliderName. Request Cancelled!</string>
+    <string name="your_location">Your Location</string>
+    <string name="cannot_request_driver">Cannot request driver. You need to rate your driver!</string>
+    <string name="cancelling_request">Cancelling Request</string>
+    <string name="cancel_request">Cancel Request</string>
+    <string name="must_enter_all_fields">Must enter all fields</string>
+    <string name="email_invalid">Email is invalid</string>
+    <string name="wrong_login">Wrong Login</string>
+    <string name="glider_type" translatable="false">glider</string>
+    <string name="sign_up_at_company">You need to sign up at the company</string>
+    <string name="km_away">Km away</string>
+    <string name="no_data_returned">No Data Returned</string>
+    <string name="thank_you_for_your_feedback">Thank you for your feedback!</string>
+    <string name="no_feedback_saved">No Feedback saved!</string>
+    <string name="switch_on_gps">"Switch On GPS"</string>
+    <string name="closed">Closed</string>
+    <string name="ratings_for">Ratings for</string>
+    <string name="loading_from_local_database">Loading from local database</string>
+    <string name="database_cleared">Database cleared</string>
+    <string name="failure_in_database_deletion">Failure in Database deletion</string>
+    <string name="intent_is_null">Intent is null</string>
+    <string name="location_is_null_or_result_receiver_is_null">Location is null or result receiver is null</string>
+    <string name="geocoder_not_returning_anything">Geocoder not returning anything</string>
+    <string name="is_not_a_glider_email_domain">is not a glider email domain</string>
+    <string name="you_need_to_enter_powerglide_com_domain">You need to enter powerglide.com domain</string>
+    <string name="click_here_for_menu">Click here for menu</string>
+    <string name="click_here_to_log_in">Click here to log in</string>
+    <string name="toggle_between_log_in_and_sign_up">Toggle between log in and sign up</string>
+    <string name="this_is_your_driver_photo">This is your driver photo</string>
+    <string name="this_is_the_company_logo">This is the company logo</string>
+    <string name="this_is_accept_request_image">This is accept request image</string>
+    <string name="this_is_request_driver_image">This is request driver image</string>
+    <string name="this_is_info_image">This is info image</string>
+    <string name="this_is_automated_teller_machine_image">This is automated teller machine image</string>
+    <string name="this_is_log_out_image">This is log out image</string>
+    <string name="this_is_transaction_image">This is transaction image</string>
+    <string name="this_is_driver_image">This is driver image</string>
+    <string name="this_is_gas_station_image">This is gas station image</string>
+    <string name="this_is_close_dialog_image">This is close dialog image</string>
+    <string name="this_is_lodging_image">This is lodging image</string>
+    <string name="this_is_rate_your_driver_image">This is rate your driver image</string>
+    <string name="this_is_parking_image">This is parking image</string>
+    <string name="this_is_nearby_places_image">This is nearby places image</string>
+    <string name="this_is_pharmacy_image">This is pharmacy image</string>
+    <string name="this_is_restaurant_image">This is restaurant image</string>
+    <string name="age">Age:</string>
+    <string name="twenty_one">21</string>
+    <string name="enter_password">Enter Password</string>
+</resources>

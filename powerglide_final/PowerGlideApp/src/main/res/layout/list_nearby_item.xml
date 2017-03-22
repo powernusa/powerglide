@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_nearby_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/card_margin_bottom"
+    android:layout_marginEnd="@dimen/card_margin_end"
+    android:layout_marginStart="@dimen/card_margin_start"
+    android:layout_marginTop="@dimen/card_margin_top">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_8dp"
+            android:layout_weight="8"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r_s_murni_teguh"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textsize_16sp" />
+
+            <RatingBar
+                android:id="@+id/ratings"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="4" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_8dp" />
+
+            <TextView
+                android:id="@+id/address_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jalan_jawa_no_12_medan_indonesia"
+                android:textSize="@dimen/textsize_14sp" />
+
+            <TextView
+                android:id="@+id/timing_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/open_now"
+                android:textSize="@dimen/textsize_13sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_8dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/direction_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/direction" />
+
+            <TextView
+                android:id="@+id/distance_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/_1_1_km"
+                android:textSize="@dimen/textsize_13sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
