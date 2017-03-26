@@ -19,6 +19,7 @@ Main features of this app.<br>
 <b>Location of Glider on a map</b> and <b> and request for driver</b><br>
 <img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332465/2cf346b4-1271-11e7-9fed-6118a316fa7b.jpg"/><img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332467/3470da6e-1271-11e7-9391-a7a710674c26.jpg"/>
 <br>
+<b>Rider/Glider needs to rate a driver before he/she can request for another driver</b><br>
 <img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332489/a36a3230-1271-11e7-8f3d-15ad0f853da0.jpg"/>
 
 
