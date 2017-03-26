@@ -32,9 +32,11 @@ Main features of this app.<br>
 <img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332787/cbb7cee6-1276-11e7-891b-cabd94567dbe.jpg"/>
 <br>
 <b>List of requests from rider/glider</b><br>
-<img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332790/d6f74908-1276-11e7-9088-28ef1e650bf2.jpg"/> <img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332791/dd2d9462-1276-11e7-8d8c-9cc1976acd9c.jpg"/>
-<br>
+<img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332790/d6f74908-1276-11e7-9088-28ef1e650bf2.jpg"/> 
 <b>Driver and glider on a map</b><br>
+<img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332791/dd2d9462-1276-11e7-8d8c-9cc1976acd9c.jpg"/>
+<br>
+<b>Driver accepts request and driving towards glider/rider</b><br>
 <img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332799/ea6e9284-1276-11e7-87d5-194fa743c792.jpg"/> <img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332801/eefa0234-1276-11e7-9462-b71bfe82f705.jpg"/>
 <br>
 <b>Driver accepts request and driving towards glider/rider</b><br>
