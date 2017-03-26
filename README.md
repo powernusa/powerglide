@@ -21,5 +21,7 @@ Main features of this app.<br>
 <br>
 <b>Rider/Glider needs to rate a driver before he/she can request for another driver</b><br>
 <img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332489/a36a3230-1271-11e7-8f3d-15ad0f853da0.jpg"/>
-
-
+<br>
+<b>Nearby List</b><br>
+<img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332672/0439f598-1275-11e7-8c57-f9925d393626.jpg"/>
+<img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332673/085826a4-1275-11e7-886c-9c90e9197ea4.jpg"/>
