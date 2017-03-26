@@ -22,6 +22,17 @@ Main features of this app.<br>
 <b>Rider/Glider needs to rate a driver before he/she can request for another driver</b><br>
 <img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332489/a36a3230-1271-11e7-8f3d-15ad0f853da0.jpg"/>
 <br>
-<b>Nearby List</b><br>
+<b>Nearby Places</b><br>
 <img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332672/0439f598-1275-11e7-8c57-f9925d393626.jpg"/>
 <img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332673/085826a4-1275-11e7-886c-9c90e9197ea4.jpg"/>
+<br>
+# Driver Mocks
+<br>
+
+<img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332787/cbb7cee6-1276-11e7-891b-cabd94567dbe.jpg"/>
+<img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332790/d6f74908-1276-11e7-9088-28ef1e650bf2.jpg"/>
+<img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332791/dd2d9462-1276-11e7-8d8c-9cc1976acd9c.jpg"/>
+<img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332799/ea6e9284-1276-11e7-87d5-194fa743c792.jpg"/>
+<img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332801/eefa0234-1276-11e7-9462-b71bfe82f705.jpg"/>
+<img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332802/f2c6af48-1276-11e7-8a04-2c48fe4290c3.jpg"/>
+<img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332806/f60be8c6-1276-11e7-8afd-0165618f8fb1.jpg"/>
