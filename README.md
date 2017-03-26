@@ -37,9 +37,13 @@ Main features of this app.<br>
 <img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332791/dd2d9462-1276-11e7-8d8c-9cc1976acd9c.jpg"/>
 <br>
 <b>Driver accepts request and driving towards glider/rider</b><br>
-<img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332799/ea6e9284-1276-11e7-87d5-194fa743c792.jpg"/> <img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332801/eefa0234-1276-11e7-9462-b71bfe82f705.jpg"/>
+<img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332799/ea6e9284-1276-11e7-87d5-194fa743c792.jpg"/> 
 <br>
-<b>Driver accepts request and driving towards glider/rider</b><br>
+<b>Driver is approaching rider/glider</b><br>
+<img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332801/eefa0234-1276-11e7-9462-b71bfe82f705.jpg"/>
+<br>
+<b>Transaction Done</b><br>
 <img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332802/f2c6af48-1276-11e7-8a04-2c48fe4290c3.jpg"/>
 <br>
+<b>Driver App Widget showing glider's ratings on driver</b><br>
 <img width="40%" vspace="20" hspace="20" src="https://cloud.githubusercontent.com/assets/13763933/24332806/f60be8c6-1276-11e7-8afd-0165618f8fb1.jpg"/>
