@@ -63,4 +63,4 @@ glider5@gmail.com
 
 ### Glider Nearby Places Animation
 
-<img width="30%" src="http://gph.is/2pyi0Wp"/>
+<img width="30%" src="https://media.giphy.com/media/3oKIP7VLqntLfYjadG/giphy.gif"/>
