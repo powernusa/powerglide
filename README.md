@@ -14,7 +14,12 @@ Main features of this app.<br>
 <br><br>
 # Youtube Demo
 
-### Pre-populate gliders with 5 gliders: glider1@gmail.com, glider2@gmail.com, glider3@gmail.com, glider4@gmail.com and glider5@gmail.com
+### Pre-populate gliders with 5 gliders: 
+glider1@gmail.com <br>
+glider2@gmail.com <br>
+glider3@gmail.com <br>
+glider4@gmail.com <br>
+glider5@gmail.com
 
 <a href="https://www.youtube.com/watch?v=5ASVRH2vyFI" ><img width="80%" src="https://cloud.githubusercontent.com/assets/13763933/25677079/c9c82c00-306e-11e7-8e13-bfff5df33676.jpg"/></a>
 
