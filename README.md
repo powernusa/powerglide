@@ -18,4 +18,38 @@ Main features of this app.<br>
 
 <a href="https://www.youtube.com/watch?v=5ASVRH2vyFI" ><img width="80%" src="https://cloud.githubusercontent.com/assets/13763933/25677079/c9c82c00-306e-11e7-8e13-bfff5df33676.jpg"/></a>
 
+<br><br>
+
+### Timeline from Glider Request to Driver Transaction
+
+00:00:03 -- reviewer log in.
+00:00:27 -- reviewer using google map and android emulator to initialize position.
+00:01:03 -- glider1 log in.
+00:01:18 -- glider1 request for driver.
+00:01:44 -- glider1's location appears on reviewer's emulator, which is 1.1 Km away from glider1's location.
+00:02:00 -- glider1's location (blue marker) is shown on reviewer's emulator / mobile phone.
+00:02:06 -- reviewer accepts glider1's request.
+00:02:12 -- reviewer's location (blue marker) is shown on glider1's emulator.
+00:02:52 to 00:04:37 -- To simulate driver driving  towards glider1.
+00:04:56 -- glider1 views reviewer info details.
+00:05:11 -- reviewer transaction done.
+00:05:46 -- glider1 request for a driver but fail because glider needs to rate a driver.
+00:05:51 -- glider1 rate a driver.
+00:06:40 -- reviewer views past ratings given by gliders.
+00:07:05 -- reviewer can also view ratings via a widget.
+
+<a href="https://www.youtube.com/watch?v=0xZnoCnR2Ds"><img width="80%" src="https://cloud.githubusercontent.com/assets/13763933/25677793/87fa77ee-3071-11e7-917b-d58bd2e03567.jpg"></a>
+
+<br><br>
+
+### Timeline for Cancelling Driver Request
+
+00:00:06 -- glider1 log in.
+00:00:14 -- reviewer log in.
+00:00:41 -- glider1 request driver.
+00:00:53 -- glider1's address appears on reviewer emulator.
+00:01:05 -- reviewer accepts request.
+00:01:27 -- glider1 cancel request.
+00:01:39 -- request has been cancelled on reviewer emulator.
+
 
