@@ -60,3 +60,7 @@ glider5@gmail.com
 <a href="https://www.youtube.com/watch?v=h-In2YbAhIA"><img width="80%" src="https://cloud.githubusercontent.com/assets/13763933/25677890/00a35b2a-3072-11e7-9ef1-db1d8dacae63.jpg"/></a>
 
 <br><br>
+
+### Glider Nearby Places Animation
+
+<img width="30%" src="http://gph.is/2pyi0Wp"/>
